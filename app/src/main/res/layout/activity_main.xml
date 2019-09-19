@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/david"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="100dp"
+        android:background="#4DB71C1c">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:padding="@dimen/padding"
+            android:src="@drawable/dislikee"
+            android:id="@+id/image01"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heartlink"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/image01"
+            android:id="@+id/appName"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#B71C1C"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginBottom="10dp"
+            android:padding="@dimen/padding"
+            android:text="Sign Up"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_below="@id/appName"
+            android:id="@+id/signup"
+            android:layout_centerInParent="true"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginBottom="20dp"
+            android:padding="@dimen/padding"
+            android:text="Login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_below="@id/signup"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
